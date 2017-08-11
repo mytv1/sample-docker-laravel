@@ -26,7 +26,7 @@ docker-compose up
 * Generate key and optimize commands :
 ```
 docker-compose exec app php artisan key:generate
-docker-compose exec app php artisan optimize
+docker-compose exec app php artisan cache:clear
 ```
 
 * Migrate database
