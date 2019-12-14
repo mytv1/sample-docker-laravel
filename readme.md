@@ -21,7 +21,7 @@ docker-compose up
 
 3. Configure enviroment for laravel :
 * Enviroment file :
-`cp .env-example .env`
+`cp .env.example .env`
 
 * Generate key and optimize commands :
 ```
